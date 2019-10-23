@@ -35,7 +35,7 @@ describe('Verificando se é isósceles', () => {
 });
 
 describe('Verificando se os tamanhos lados são válidos', () => {
-  it('Teste: Lado a ', () => {
+  it('Teste: Lado com valor que viola validade do triângulo ', () => {
     let triangulo = new Triangulo(100, 10, 10)
     assert.equal(triangulo.valido(), false);
   });
