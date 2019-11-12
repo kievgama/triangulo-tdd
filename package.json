@@ -4,7 +4,7 @@
   "description": "Projeto em Node.js para exercitar o conceito de test cases, inspirado no exemplo do livro \"The Art of Software Testing\"",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --exit"
   },
   "author": "Kiev Gama",
   "license": "ISC",
