@@ -6,8 +6,11 @@ function Triangulo(a,b,c) {
 
   
   Triangulo.prototype.toString = function () {
-    return `Lado A ${this.a}, Lado B ${this.b}, Lado C ${this.c}`
+    return `Lado A: ${this.a}, Lado B: ${this.b}, Lado C: ${this.c}`
   };
   
   
   module.exports = Triangulo;
+
+
+  
